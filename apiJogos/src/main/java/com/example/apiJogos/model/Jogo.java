@@ -16,6 +16,10 @@ public class Jogo {
     private Integer nota;
     private String review;
 
+    public Integer getId() {
+        return id;
+    }
+
     public String getNome() {
         return nome;
     }
